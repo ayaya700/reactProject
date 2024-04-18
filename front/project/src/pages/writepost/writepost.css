@@ -1,0 +1,72 @@
+.writepost {
+  padding-top: 50px;
+}
+
+.writeImg {
+  margin-left: 150px;
+  width: 70vw;
+  height: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.writeForm {
+  position: relative;
+}
+
+.writeFormGroup {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.writeIcon {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  color: #817d7d; /* Adjusted color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.writeInput {
+  font-size: 20px; /* Adjusted font size */
+  border: none;
+  padding: 15px; /* Adjusted padding */
+  width: 70vw;
+  font-family: "Roboto", sans-serif; /* Changed font */
+}
+
+.writeInput::placeholder {
+  color: #bdb9b9; /* Adjusted color */
+  font-weight: 400;
+}
+
+.writeInput:focus {
+  outline-style: none;
+}
+
+.writeText {
+  width: 70vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif; /* Changed font */
+  font-size: 18px; /* Adjusted font size */
+}
+
+.writeSubmit {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  color: white;
+  background-color: #800066; /* Adjusted color */
+  padding: 12px; /* Adjusted padding */
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif; /* Changed font */
+}

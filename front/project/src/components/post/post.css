@@ -1,0 +1,61 @@
+.post {
+  width: 385px;
+  margin: 0px 25px 40px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.postImg {
+  width: 385px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px; /* Increased border radius */
+}
+
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postCat {
+  font-family: "Roboto", sans-serif; /* Changed font */
+  font-weight: 500; /* Increased font weight */
+  font-size: 13px; /* Increased font size */
+  color: #8e24aa; /* Changed color */
+  line-height: 20px;
+  margin-top: 18px; /* Adjusted margin */
+  margin-right: 12px; /* Adjusted margin */
+  cursor: pointer;
+}
+
+.postTitle {
+  font-family: "Roboto Slab", serif; /* Changed font */
+  font-size: 32px; /* Increased font size */
+  font-weight: 700; /* Increased font weight */
+  margin-top: 18px; /* Adjusted margin */
+  cursor: pointer;
+}
+
+.postDate {
+  font-family: "Roboto", sans-serif; /* Changed font */
+  font-style: italic;
+  font-size: 14px; /* Increased font size */
+  font-weight: 400;
+  color: #777777; /* Adjusted color */
+  margin-top: 18px; /* Adjusted margin */
+}
+
+.postDesc {
+  font-family: "Roboto", sans-serif; /* Changed font */
+  font-weight: 400;
+  font-size: 16px; /* Increased font size */
+  line-height: 26px; /* Increased line height */
+  color: #555555; /* Adjusted color */
+  margin-top: 18px; /* Adjusted margin */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}

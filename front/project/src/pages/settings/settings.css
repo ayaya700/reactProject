@@ -1,0 +1,105 @@
+.settings {
+  display: flex;
+}
+
+.settingsContainer {
+  flex: 9;
+  padding: 20px;
+}
+
+.settingsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settingsUpdateTitle {
+  font-size: 22px; /* Increased font size */
+  margin-bottom: 20px;
+  color: #804191; /* Adjusted color */
+  font-family: "Roboto", sans-serif; /* Changed font */
+}
+
+.settingsDeleteTitle {
+  color: red;
+  font-size: 16px; /* Increased font size */
+  cursor: pointer;
+  font-family: "Roboto", sans-serif; /* Changed font */
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.settingsPP {
+  display: flex;
+  align-items: center;
+  margin-top: 15px; /* Adjusted margin */
+  margin-bottom: 15px; /* Adjusted margin */
+}
+
+.settingsPP > img {
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.settingsPPIcon {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  margin-left: 10px;
+  color: white;
+  background-color: #804191; /* Adjusted color */
+  cursor: pointer;
+}
+
+.settingsPPButton:focus {
+  outline-style: none;
+}
+
+.settingsForm > label {
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif; /* Changed font */
+}
+
+.settingsPPInput {
+  width: 30%;
+}
+
+.settingsForm > input {
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.settingsSubmitButton {
+  align-self: center;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #800069; /* Adjusted color */
+  padding: 12px; /* Adjusted padding */
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif; /* Changed font */
+}
+
+.settingsSubmitButton:hover {
+  background-color: #017272; /* Adjusted color */
+}

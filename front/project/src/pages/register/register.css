@@ -1,0 +1,63 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    109.6deg,
+    rgb(247, 202, 201) 20.6%,
+    rgb(146, 168, 209) 85.9%
+  );
+  font-family: "Roboto", sans-serif; /* Changed font */
+}
+
+.registerTitle {
+  font-size: 50px;
+  color: #333333; /* Adjusted color */
+}
+
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm > label {
+  margin: 10px 0;
+}
+
+.registerInput {
+  padding: 12px; /* Adjusted padding */
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.registerInput:focus {
+  outline: none;
+}
+
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(111, 0, 128);
+  color: white;
+  padding: 12px; /* Adjusted padding */
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.registerLoginButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: rgb(152, 128, 240);
+  cursor: pointer;
+  padding: 12px; /* Adjusted padding */
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif; /* Changed font */
+}
